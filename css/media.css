@@ -31,6 +31,19 @@
 	.credit-programms li {
 		max-width: 110px;
 	}
+	.head-catalog {
+		flex-wrap: wrap;
+	}
+	.head-catalog__item {
+		width: 48%;
+		margin-bottom: 15px;
+	}
+	.head-catalog__item:last-child .jqselect {
+		width: 155px;
+	}
+	.list-sidebar li a {
+		font-size: 15px;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -181,6 +194,25 @@
     .wrapper {
     	padding-top: 65px;
     }
+    .list-sidebar {
+    	display: none;
+    }
+    .head-catalog {
+    	margin-top: 25px;
+    }
+    .catalog-page {
+    	padding-top: 25px;
+    }
+    .head-sidebar {
+    	display: flex;
+    	align-items: center;
+    	justify-content: space-between;
+    }
+    .btn-filter {
+    	font-size: 20px;
+    	color: #009200;
+    	display: inline-block;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -302,6 +334,29 @@
 }
 .fancybox-close {
 	right: 15px;
+}
+.head-catalog__item {
+	width: 100%;
+}
+.row_catalog .catalog-item {
+	margin-left: auto;
+	margin-right: auto;
+}
+.col_left-catalog .main-btn {
+max-width: 290px;
+}
+.head-catalog__item p {
+	flex: 1;
+}
+.pagination .pagination__arrow a {
+	margin: 0 15px;
+}
+.title-small {
+	padding-bottom: 15px;
+}
+.catalog-item {
+	margin-left: auto;
+	margin-right: auto;
 }
 }
 
@@ -436,6 +491,13 @@
     .questions {
     	padding-bottom: 50px;
     }
+    .col_left-catalog .main-btn {
+    max-width: 230px;
+}
+.text-main {
+    font-size: 14px;
+    line-height: 22px;
+}
 }
 
 /* Custom, iPhone Retina */

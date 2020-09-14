@@ -1,4 +1,9 @@
 $(document).ready(function() {
+
+	// стайлер для select
+	 $('select').styler();
+
+	 new WOW().init();
 // Кнопка sandwich 
 
 $(".btn_nav").click(function() {
@@ -23,6 +28,15 @@ $(".header__bottom a").click(function() {
     $(window).resize(function() {
       heightDetect();
     });
+
+    $(".btn-filter").click(function(e) {
+    	e.preventDefault();
+    if ($(".list-sidebar").is(":hidden")) {
+        $(".list-sidebar").slideDown(200);
+    } else {
+        $(".list-sidebar").slideUp(200);
+    }
+});
 
 // mask-input 
 
