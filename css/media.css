@@ -300,6 +300,9 @@
 .row_credits {
     margin-bottom: 30px;
 }
+.fancybox-close {
+	right: 15px;
+}
 }
 
 /* Extra Small Devices, Phones */
