@@ -419,6 +419,20 @@ max-width: 290px;
 .blog-item {
 	margin-bottom: 25px;
 }
+.article .title-middle {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.text-page li, .text-page p {
+	margin-bottom: 15px;
+}
+.article .line-flex {
+	flex-direction: column;
+	align-items: flex-start;	
+}
+.article .line-flex .btn-more {
+	margin-top: 20px;
+}
 }
 
 /* Extra Small Devices, Phones */
