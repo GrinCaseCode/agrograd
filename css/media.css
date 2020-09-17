@@ -213,6 +213,22 @@
     	color: #009200;
     	display: inline-block;
     }
+    .hidden_tablet {
+    	display: none;
+    }
+    .card__info {
+    	margin-top: 30px;
+    }
+    .tabs-card li a::before{
+    	top: 15px;
+    }
+    .tab-container-card br {
+    	display: none;
+    }
+    .catalog-item {
+    	margin-left: auto;
+    	margin-right: auto;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -358,6 +374,51 @@ max-width: 290px;
 	margin-left: auto;
 	margin-right: auto;
 }
+.card__title-price {
+	padding-top: 20px;
+}
+.card__buttons {
+	margin-top: 15px;
+}
+.tabs-card li a {
+    padding: 0 5px;
+    height: 65px;
+    font-size: 13px;
+    line-height: 17px;
+    align-items: flex-start;
+    padding-top: 20px;
+}
+.tabs-card li a::before {
+	left: 5px;
+}
+.tab-container-card {
+    padding: 15px 10px;
+    padding-bottom: 0;
+    font-size: 14px;
+    line-height: 21px;
+    }
+    .card {
+    padding-bottom: 30px;
+}
+.catalog .section-title {
+	margin-bottom: 15px;
+}
+.title-middle {
+    font-size: 23px;
+    line-height: 29px;
+    }
+    .card .title-middle {
+    padding-bottom: 20px;
+}
+.blog-item__img {
+	margin-bottom: 15px;
+}
+.blog-item__date {
+	margin-bottom: 5px;
+}
+.blog-item {
+	margin-bottom: 25px;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -498,6 +559,54 @@ max-width: 290px;
     font-size: 14px;
     line-height: 22px;
 }
+.title-middle {
+    font-size: 20px;
+    line-height: 24px;
+}
+.slider-card-for__item {
+    height: 270px;
+}
+.slider-card-nav__item {
+	height: 90px;
+	margin: 0 5px;
+}
+.slider-card-nav {
+	margin: 0 -5px;
+	margin-top: 15px;
+}
+.card__info {
+	padding: 20px 15px;
+	font-size: 14px;
+	line-height: 21px;
+}
+.card__buttons a {
+	width: 100%;
+	margin: 0;
+	margin-bottom: 15px;
+}
+.card__buttons .btn-red {
+	margin-right: 0;
+}
+.tabs-card {
+	margin-top: 15px;
+}
+.tabs-card {
+	flex-wrap: wrap;
+}
+.tabs-card li {
+	flex: inherit;
+	width: 50%;
+	margin-top: 5px;
+}
+.tabs-card li a {
+	    border: 1px #ecf0f1 solid;
+}
+.blog .pagination {
+	padding-top: 10px;
+}
+.blog-item__img {
+	height: 190px;
+}
 }
 
 /* Custom, iPhone Retina */
@@ -528,6 +637,9 @@ max-width: 290px;
 @media only screen and (min-width : 992px) {
 .header__bottom {
 	height: auto !important;
+}
+.show_tablet {
+	display: block !important;
 }
 }
 
