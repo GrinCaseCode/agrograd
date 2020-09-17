@@ -4,6 +4,20 @@ $(document).ready(function() {
 	 $('select').styler();
 
 	 new WOW().init();
+
+	 /*text more*/
+	 $(".link-more").click(function(e) {
+		e.preventDefault();
+		if ($(".hidden-text-more").is(":hidden")) {
+			$(".hidden-text-more").slideDown(200);
+			$(".link-more").addClass("active");
+			$(".text-main_more").addClass("active");
+		} else {
+			$(".hidden-text-more").slideUp(200);
+			$(".link-more").removeClass("active");
+			$(".text-main_more").removeClass("active");
+		}
+	});
 // Кнопка sandwich 
 
 $(".btn_nav").click(function() {
