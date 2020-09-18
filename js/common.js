@@ -101,6 +101,37 @@ $('.slider-catalog').slick({
 		]
 });
 
+$('.slider-docs').slick({
+    arrows: true,
+    dots: false,
+    infinite: true,
+    slidesToShow: 3,
+    touchThreshold: 1000,
+    prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-angle-left"></i><div/>',
+	nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-angle-right"></i><div/>',
+    slidesToScroll: 1,
+    responsive: [
+		{
+			breakpoint: 1200,
+			settings: {
+				slidesToShow: 2,
+			}
+		},
+		{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 2,
+			}
+		},
+		{
+			breakpoint: 550,
+			settings: {
+				slidesToShow: 1,
+			}
+		}
+		]
+});
+
 
 
 
