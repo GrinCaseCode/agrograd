@@ -232,7 +232,8 @@ body {
 	text-align: center;
 	max-width: 100%;
 	padding: 0px 25px;
-	background-color: #ff4d04;
+	background-color: #ff3d00;
+background-image: linear-gradient(9deg, rgba(255, 61, 0, 0.43) 0%, rgba(138, 3, 3, 0.43) 100%);
 	border-radius: 8px;
 	transition: .3s all;
 	color: #ffffff;
@@ -258,8 +259,8 @@ body {
 	opacity: 0;
 	/* top: 0; */
 	/* left: 0; */
-	background-color: #ff4d04;
-	background: linear-gradient(0deg, rgba(232, 123, 30, 1) 0%, rgba(240, 101, 6, 1) 55%);
+	background-color: #ff3d00;
+background-image: linear-gradient(9deg, rgba(255, 61, 0, 0.3) 0%, rgba(138, 3, 3, 0.8) 100%);
 	z-index: -1;
 	border-radius: 8px;
 	-webkit-transition: all 0.3s;
@@ -1424,7 +1425,7 @@ body {
 	display: none;
 }
 .modal-block .main-block__form {
-	max-width: 400px;
+	max-width: 350px;
 	margin: 0 auto;
 	width: 100%;
 }
@@ -1433,9 +1434,7 @@ body {
 	background-color: transparent !important;
 	box-shadow: none !important;
 }
-.modal-block .main-form {
-	box-shadow: none;
-}
+
 .fancybox-close {
 	top: 15px;
 	right: 25px;
@@ -1455,10 +1454,10 @@ body {
 	text-rendering: auto;
 	line-height: 1;
 	transform: rotate(44deg);
-	color: #ff4d04;
+	color: #304c30;
 	font-family: "Font Awesome 5 Pro";
-	font-weight: 200;
-	font-size: 24px;
+	font-weight: 700;
+	font-size: 18px;
 }
 .fancybox-close:before {
 	content: "\f067";
@@ -2130,6 +2129,9 @@ font-family: "GothamPro-bold";
 	font-family: 'GothamPro-medium';
 	font-weight: 500;
 }
+.article .title-min {
+	padding-bottom: 8px;
+}
 .text-page p strong {
 	font-family: 'GothamPro-medium';
 	font-weight: 500;
@@ -2137,9 +2139,6 @@ font-family: "GothamPro-bold";
 .article .section-title {
 	margin-top: 0;
 	margin-bottom: 10px;
-}
-.row_bottom-article .title-min {
-	padding-bottom: 8px;
 }
 .row_bottom-article .text-page li {
 	margin-bottom: 10px;
@@ -2203,4 +2202,19 @@ background-color: #1d95d3;
 }
 .article .line-flex {
 	max-width: 650px;
+}
+.modal-wrap {
+	padding: 86px 20px;
+	width: 738px;
+	max-width: 100%;
+border-radius: 30px;
+background-color: #ffffff;
+	margin: 0 auto;
+	background-image: url(../img/bg_modal.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.modal-wrap .checkbox-wrap .checkbox {
+	margin-top: 50px;
 }

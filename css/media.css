@@ -231,6 +231,8 @@
     }
 }
 
+
+
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 	.logo img {
@@ -432,8 +434,18 @@ max-width: 290px;
 }
 .article .line-flex .btn-more {
 	margin-top: 20px;
+}  
+.modal-wrap {
+	padding: 0;
+	width: 100%;
+	max-width: 350px;
+	background-image: none;
+	background-color: transparent;
 }
 }
+
+
+
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
