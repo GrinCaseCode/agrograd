@@ -633,7 +633,7 @@ background-image: linear-gradient(9deg, rgba(255, 61, 0, 0.3) 0%, rgba(138, 3, 3
 .credit-title {
 	font-size: 36px;
 	margin: 0;
-	margin: 0px 0px 31px 0px;
+	margin: 0px 0px 20px 0px;
 }
 
 .credit-descr {
@@ -2217,4 +2217,22 @@ background-color: #ffffff;
 }
 .modal-wrap .checkbox-wrap .checkbox {
 	margin-top: 50px;
+}
+.credit_page {
+	padding-top: 35px;
+	padding-bottom: 0;
+	background-color: transparent;
+	margin-top: 0 !important;
+}
+.form_page .section-title {
+	margin-top: 80px;
+}
+.form_page .main-block__form {
+    margin: 95px 0px 0px 0px;
+}
+.form_page {
+	padding-bottom: 90px;
+}
+.credit_page .credit-programms li {
+	border: 1px solid #c9cdd5;
 }

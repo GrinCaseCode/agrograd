@@ -46,6 +46,9 @@
 	}
 }
 
+
+
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 	.header__contacts {
@@ -233,6 +236,8 @@
 
 
 
+
+
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 	.logo img {
@@ -289,7 +294,7 @@
 		padding-top: 15px;
 	}
 	.credit-descr {
-		margin: 0px 0px 35px 0px;
+		margin: 0px 0px 20px 0px;
 		font-size: 16px;
 		line-height: 25px;
 	}
@@ -633,6 +638,17 @@ max-width: 290px;
 .blog-item__img {
 	height: 190px;
 }
+.credit-number {
+	font-size: 29px;
+}
+.credit-items .section-title {
+    font-size: 16px;
+    line-height: 21px;
+    margin: 0px 0px 9px 0px;
+    }
+    .form_page {
+    	padding-bottom: 50px;
+    }
 }
 
 /* Custom, iPhone Retina */
