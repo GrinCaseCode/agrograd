@@ -1,6 +1,8 @@
 $(document).ready(function() {
 
-
+// стайлер для select
+	 $('select').styler();
+	 
 	 new WOW().init();
 
 	 /*text more*/
