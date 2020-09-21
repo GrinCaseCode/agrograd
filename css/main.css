@@ -2342,3 +2342,77 @@ border: 1px solid #c9cdd5;
 	margin-top: 20px;
 	margin-bottom: 35px;
 }
+/* wholesale */
+.wholesale-title {
+	
+	margin: 0;
+	margin: 30px 0px 45px 0px;
+}
+
+.wholesale-item {
+	min-height: 94px;
+	position: relative;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	border-radius: 6px;
+	background-color: #ecf0f1;
+	margin: 0px 0px 18px 0px;
+	transition:  .2s all;
+}
+
+.wholesale-item:hover {
+	box-shadow: 0 10px 15px rgba(33, 36, 33, 0.17);
+}
+.wholesale-item__img {
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	width: 110px;
+	padding: 10px;
+}
+.wholesale-item__img img {
+	max-width: 100%;
+	height: auto;
+}
+.wholesale-item__title  {
+	padding: 0px 0px 0px 28px;
+	text-align: center;
+	position: relative;
+	display: inline-block;
+	color: #212421;
+	font-family: "GothamPro-medium";
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 36px;
+}
+ .wholesale-item__title:before {
+	content: '';
+	position: absolute;
+	left: 0px;
+	top: 17px;
+	width: 11px;
+	height: 3px;
+	background-color: #009200;
+	
+}
+.wholesale .main-block__form {
+	margin-top: 0;
+}
+.wholesale .block-form {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.wholesale .block-form__title {
+	margin-bottom: 13px;
+}
+.wholesale .form-btn {
+    margin: 7px 0px 20px 0px;
+}
+.wholesale .section-title {
+	margin-top: 45px;
+	margin-bottom: 45px;
+}
+.wholesale {
+	padding-bottom: 65px;
+}

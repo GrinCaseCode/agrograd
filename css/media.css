@@ -53,6 +53,12 @@
 	.arrows_center .slick-next {
 		right: 0;
 	}
+		.wholesale-item__title {
+		font-size: 16px;
+	}
+	.wholesale-item__img {
+		width: 87px;
+	}
 }
 
 
@@ -253,6 +259,10 @@
     }
     .about .section-title {
     	margin-bottom: 20px;
+    }
+    .wholesale .main-block__form {
+    	margin: 0 auto;
+    	margin-top: 20px;
     }
 }
 
@@ -473,6 +483,9 @@ max-width: 290px;
     width: 253px;
     height: 355px;
     }
+    .wholesale .section-title {
+    	margin-bottom: 20px;
+    }
 }
 
 
@@ -687,6 +700,16 @@ max-width: 290px;
 }
 .documents .section-title {
 	margin-bottom: 5px;
+}
+.wholesale .section-title {
+	margin-top: 20px;
+}
+.wholesale .block-form {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.wholesale-item__title {
+	padding-left: 24px;
 }
 }
 
