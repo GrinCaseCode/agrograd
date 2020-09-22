@@ -2576,3 +2576,9 @@ pointer-events: none;
 .form_page .main-block__form {
 	position: relative;
 }
+.form_page .section-title span {
+	text-transform: uppercase;
+}
+.form_page .section-title {
+	max-width: 525px;
+}
