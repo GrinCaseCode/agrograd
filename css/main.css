@@ -377,7 +377,7 @@ body {
 }
 
 .catalog-img img:last-child {
-	max-height: 175px;
+	max-height: 100%;
 
 }
 .catalog-item__price {
@@ -1486,6 +1486,7 @@ body {
 	position: relative;
 	transition: all 0.3s;
 }
+.list-sidebar li.active a,
 .list-sidebar li a:hover {
 	box-shadow: 0 0 6px #ccc;
 }
