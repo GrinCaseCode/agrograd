@@ -319,7 +319,7 @@
 		display: none;
 	}
 	.wrap-sidebar {
-		max-width: 400px;
+		max-width: 600px;
 	}
 	.btn-dropdown {
 		position: absolute;
@@ -366,7 +366,7 @@
 	position: relative;
 }
 .col_left-catalog .main-btn span {
-	width: 400px;
+	width: 600px;
 	max-width: 100%;
 }
 }
@@ -950,6 +950,8 @@
 	}
 	.catalog-item .btn-page {
 		padding: 9px 7px;
+		width: 100%;
+		max-width: 150px;	
 		white-space: nowrap;
 		font-size: 11px;
 	}
