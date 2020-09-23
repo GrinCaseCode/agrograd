@@ -21,8 +21,8 @@
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
 	<link rel="stylesheet" href="css/font.css" />
 	<link rel="stylesheet" href="css/null.css">
-	<link rel="stylesheet" href="css/main.css?ver=1.7" />
-	<link rel="stylesheet" href="css/media.css?ver=1.7" />
+	<link rel="stylesheet" href="css/main.css?ver=1.77" />
+	<link rel="stylesheet" href="css/media.css?ver=1.77" />
 </head>
 
 <body>
@@ -56,7 +56,7 @@
 					<ul class="menu">
 						<li><a href="#">Выставочная площадка</a></li>
 						<li><a href="#">О компании</a></li>
-						<li><a href="#">оборудования</a></li>
+						<li><a href="#">Каталог оборудования</a></li>
 						<li><a href="#">Доставка</a></li>
 						<li><a href="#">Кредит и лизинг</a></li>
 						<li><a href="#">Оптовикам</a></li>
@@ -76,20 +76,20 @@
 							<a href="#" class="main-btn main-btn_page">
 								<span>Скачать оптовый прайс</span>
 							</a>
-							<a href="#" class="btn-filter">
-								<i class="fas fa-filter"></i>
-							</a>
 						</div>
-						<ul class="list-sidebar">
-							<li><a href="#">Почвофрезы</a></li>
-							<li><a href="#">Прицепы</a></li>
-							<li><a href="#">Плуги</a></li>
-							<li><a href="#">Отвалы</a></li>
-							<li><a href="#">Окучники</a></li>
-							<li><a href="#">Картофелекопалки</a></li>
-							<li><a href="#">Картофелесажалки</a></li>
-							<li><a href="#">Культиваторы</a></li>
-						</ul>
+						<div class="wrap-sidebar">
+							<div class="btn-dropdown"><i class="fas fa-filter"></i></div>
+							<ul class="list-sidebar">
+								<li class="active"><a href="#">Почвофрезы</a></li>
+								<li><a href="#">Прицепы</a></li>
+								<li><a href="#">Плуги</a></li>
+								<li><a href="#">Отвалы</a></li>
+								<li><a href="#">Окучники</a></li>
+								<li><a href="#">Картофелекопалки</a></li>
+								<li><a href="#">Картофелесажалки</a></li>
+								<li><a href="#">Культиваторы</a></li>
+							</ul>
+						</div>
 					</div>
 					<div class="col-lg-9">
 						<div class="head-catalog">
@@ -102,7 +102,7 @@
 									<option value="1">по умолчанию</option>
 								</select>
 							</div>
-							<div class="head-catalog__item">
+							<div class="head-catalog__item hidden_mobile">
 								<p>Ширина почвофрезы:</p>
 								<select>
 									<option value="1"></option>
@@ -111,7 +111,7 @@
 									<option value="1">40</option>
 								</select>
 							</div>
-							<div class="head-catalog__item">
+							<div class="head-catalog__item hidden_mobile">
 								<p>Бренд: </p>
 								<select>
 									<option value="1"></option>
@@ -122,7 +122,7 @@
 							</div>
 						</div>
 						<div class="row row_catalog">
-							<div class="col-lg-4 col-md-4 col-sm-6">
+							<div class="col-lg-4 col-md-4 col-6">
 								<a href="#" class="catalog-item">
 									<span class="catalog-item__status">В наличии</span>
 									<span class="catalog-img">
@@ -132,7 +132,7 @@
 									<span class="catalog-item__newprice">39 900 Р</span>
 								</a>
 							</div>
-							<div class="col-lg-4 col-md-4 col-sm-6">
+							<div class="col-lg-4 col-md-4 col-6">
 								<a href="#" class="catalog-item">
 									<span class="catalog-item__status catalog-item__status_red">Под заказ</span>
 									<span class="catalog-img">
@@ -142,7 +142,7 @@
 									<span class="catalog-item__newprice">39 900 Р</span>
 								</a>
 							</div>
-							<div class="col-lg-4 col-md-4 col-sm-6">
+							<div class="col-lg-4 col-md-4 col-6">
 								<a href="#" class="catalog-item">
 									<span class="catalog-item__status">В наличии</span>
 									<span class="catalog-img">
@@ -152,7 +152,7 @@
 									<span class="catalog-item__newprice">39 900 Р</span>
 								</a>
 							</div>
-							<div class="col-lg-4 col-md-4 col-sm-6">
+							<div class="col-lg-4 col-md-4 col-6">
 								<a href="#" class="catalog-item">
 									<span class="catalog-item__status">В наличии</span>
 									<span class="catalog-img">
@@ -162,7 +162,7 @@
 									<span class="catalog-item__newprice">39 900 Р</span>
 								</a>
 							</div>
-							<div class="col-lg-4 col-md-4 col-sm-6">
+							<div class="col-lg-4 col-md-4 col-6">
 								<a href="#" class="catalog-item">
 									<span class="catalog-item__status catalog-item__status_red">Под заказ</span>
 									<span class="catalog-img">
@@ -172,7 +172,7 @@
 									<span class="catalog-item__newprice">39 900 Р</span>
 								</a>
 							</div>
-							<div class="col-lg-4 col-md-4 col-sm-6">
+							<div class="col-lg-4 col-md-4 col-6">
 								<a href="#" class="catalog-item">
 									<span class="catalog-item__status">В наличии</span>
 									<span class="catalog-img">
@@ -182,7 +182,7 @@
 									<span class="catalog-item__newprice">39 900 Р</span>
 								</a>
 							</div>
-							<div class="col-lg-4 col-md-4 col-sm-6">
+							<div class="col-lg-4 col-md-4 col-6">
 								<a href="#" class="catalog-item">
 									<span class="catalog-item__status">В наличии</span>
 									<span class="catalog-img">
@@ -192,7 +192,7 @@
 									<span class="catalog-item__newprice">39 900 Р</span>
 								</a>
 							</div>
-							<div class="col-lg-4 col-md-4 col-sm-6">
+							<div class="col-lg-4 col-md-4 col-6">
 								<a href="#" class="catalog-item">
 									<span class="catalog-item__status catalog-item__status_red">Под заказ</span>
 									<span class="catalog-img">
@@ -202,7 +202,7 @@
 									<span class="catalog-item__newprice">39 900 Р</span>
 								</a>
 							</div>
-							<div class="col-lg-4 col-md-4 col-sm-6">
+							<div class="col-lg-4 col-md-4 col-6">
 								<a href="#" class="catalog-item">
 									<span class="catalog-item__status">В наличии</span>
 									<span class="catalog-img">
@@ -212,7 +212,7 @@
 									<span class="catalog-item__newprice">39 900 Р</span>
 								</a>
 							</div>
-							<div class="col-lg-4 col-md-4 col-sm-6">
+							<div class="col-lg-4 col-md-4 col-6">
 								<a href="#" class="catalog-item">
 									<span class="catalog-item__status">В наличии</span>
 									<span class="catalog-img">
@@ -222,7 +222,7 @@
 									<span class="catalog-item__newprice">39 900 Р</span>
 								</a>
 							</div>
-							<div class="col-lg-4 col-md-4 col-sm-6">
+							<div class="col-lg-4 col-md-4 col-6">
 								<a href="#" class="catalog-item">
 									<span class="catalog-item__status catalog-item__status_red">Под заказ</span>
 									<span class="catalog-img">
@@ -232,7 +232,7 @@
 									<span class="catalog-item__newprice">39 900 Р</span>
 								</a>
 							</div>
-							<div class="col-lg-4 col-md-4 col-sm-6">
+							<div class="col-lg-4 col-md-4 col-6">
 								<a href="#" class="catalog-item">
 									<span class="catalog-item__status">В наличии</span>
 									<span class="catalog-img">
@@ -383,7 +383,7 @@
 	<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
 	<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
 	<script src="libs/scroll2id/PageScroll2id.min.js"></script>
-	<script src="js/common.js?ver=1.55"></script>
+	<script src="js/common.js?ver=1.77"></script>
 	<!-- Yandex.Metrika counter -->
 	<!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter -->
